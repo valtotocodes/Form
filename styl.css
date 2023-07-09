@@ -1,0 +1,72 @@
+body{
+    background-color: darkorange;
+    display: block;
+    border:dashed;
+    text-align: center;
+    box-sizing: border-box;
+}
+label{
+margin-bottom: 75%;
+margin-top: 50%;
+margin-right: 1rem;
+font-weight: bold;
+font-size: 20px;
+}
+input{
+    margin-bottom: 1%;
+margin-top: 1%;
+margin-right: 1rem;
+border-radius: 20px black solid;
+padding: 1rem;
+}
+.sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50%; 
+}
+/*login.html*/
+body{
+    background-color: rgb(49, 85, 117);
+    display: block;
+    border: double;
+
+}
+input{
+    border-radius: 10px;
+}
+a{
+    color: red;
+    font-size: 20px;
+}
+a:first-child{
+    color: red;
+    font-size: 20px;
+}
+.login{
+    padding-left: 100px;
+    padding-right: 2rem;
+    background-color: darkgoldenrod;
+    margin-left: 25%;
+    font-size: 20px;
+}
+.login:hover{
+    color: brown;
+}
+p{
+    font-weight: bold;
+    font-size: 15px;
+}
+/*login.html*/
+
+
+
+
+
+
+@media  (max-width:600px) {
+    .my-element{
+        width: 100%;
+    
+    }
+   
+}
